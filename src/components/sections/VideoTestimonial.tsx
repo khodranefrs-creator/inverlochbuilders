@@ -105,7 +105,7 @@ export function VideoTestimonial() {
                   autoPlay
                   playsInline
                   preload="metadata"
-                  poster={`https://static.wixstatic.com/media/${v.poster.src}/v1/fit/w_1400,q_85,enc_avif,quality_auto/poster.jpg`}
+                  poster={`https://static.wixstatic.com/media/${v.poster.src}/v1/fill/w_1400,h_788,al_c,q_90,enc_avif,quality_auto/poster.jpg`}
                   className="h-full w-full"
                 >
                   <source src={v.videoFile} type="video/mp4" />

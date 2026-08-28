@@ -13,6 +13,7 @@ export function Hero() {
           src="c86e57_c0e95e74d8ef4d6facb91b33a4114ea2~mv2.jpg"
           alt="Custom coastal home built by Inverloch Builders near Wilsons Promontory"
           width={2200}
+          ratio="21/9"
           eager
           className="wix-img is-eager absolute inset-0 h-full w-full object-cover"
         />

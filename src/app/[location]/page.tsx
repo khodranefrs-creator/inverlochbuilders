@@ -231,6 +231,7 @@ export default async function LocationLandingPage({ params }: Props) {
                   src={g.src}
                   alt={g.alt}
                   width={800}
+                  ratio="3/4"
                   className="zoom-media wix-img absolute inset-0 h-full w-full object-cover"
                 />
               </div>
@@ -243,7 +244,7 @@ export default async function LocationLandingPage({ params }: Props) {
       <section className="bg-parchment py-24 md:py-32">
         <Container>
           <SectionHeader
-            eyebrow="Featured projects"
+            eyebrow="Selected projects"
             title={
               <>
                 Our work near
@@ -261,6 +262,7 @@ export default async function LocationLandingPage({ params }: Props) {
                       src={p.hero.src}
                       alt={p.hero.alt}
                       width={800}
+                      ratio="4/5"
                       className="zoom-media wix-img absolute inset-0 h-full w-full object-cover"
                     />
                   </div>

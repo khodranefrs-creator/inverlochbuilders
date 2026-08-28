@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { Project } from "@/lib/data/projects";
 import { WixImage } from "@/components/ui/WixImage";
+import { ratioFromClass } from "@/lib/wix";
 import { cn } from "@/lib/utils";
 
 export function ProjectCard({
@@ -16,7 +17,7 @@ export function ProjectCard({
 }) {
   return (
     <Link
-      href={`/${project.slug}`}
+      href={`/ourworks/${project.slug}`}
       className="group block"
       aria-label={`View ${project.name} — ${project.typeLabel}`}
     >
@@ -25,6 +26,7 @@ export function ProjectCard({
           src={project.hero.src}
           alt={project.hero.alt}
           width={size === "lg" ? 1600 : 1100}
+          ratio={ratioFromClass(ratio)}
           className="zoom-media wix-img absolute inset-0 h-full w-full object-cover"
         />
         <div className="absolute inset-0 bg-ink/0 transition-colors duration-500 group-hover:bg-ink/10" />

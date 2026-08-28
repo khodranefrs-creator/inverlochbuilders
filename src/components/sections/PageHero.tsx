@@ -32,6 +32,7 @@ export function PageHero({
             src={image.src}
             alt={image.alt}
             width={2000}
+            ratio="21/9"
             eager
             className="wix-img is-eager absolute inset-0 h-full w-full object-cover"
           />

@@ -15,6 +15,8 @@ export type Project = {
   featured?: boolean;
   year?: string;
   architect?: string;
+  /** Existing site location page that features this project, where one exists */
+  locationSlug?: string;
 };
 
 export const projects: Project[] = [
@@ -26,6 +28,7 @@ export const projects: Project[] = [
     typeLabel: "Custom Home",
     tagline: "Reclaimed brick. Spotted Gum. Northern light.",
     featured: true,
+    locationSlug: "inverloch",
     description: [
       "Fern is a striking, architecturally designed residence that blends timeless character with modern performance. Built using old reclaimed brick, natural materials, and a feature Spotted Gum cladding element, the home sits comfortably within its treed environment while making a bold statement through its refined form and Colourbond Monument exterior.",
       "Designed to take full advantage of northern light, Fern embraces passive-house influences and tight building principles to deliver exceptional comfort, energy efficiency, and year-round livability. Warm plywood-lined ceilings and polished concrete floors bring texture, durability, and a sense of calm to the open-plan interiors.",
@@ -143,6 +146,7 @@ export const projects: Project[] = [
     type: "renovation",
     typeLabel: "Renovation",
     tagline: "A coastal property, thoughtfully renewed.",
+    locationSlug: "inverloch",
     description: [
       "Cutriss is a coastal property renovation in Inverloch. The project was led with the same design-led care and attention to high-performance construction that defines every Inverloch Builders home.",
     ],
@@ -211,6 +215,7 @@ export const projects: Project[] = [
     type: "custom-home",
     typeLabel: "Custom Home",
     tagline: "Designed for coastal views and natural light.",
+    locationSlug: "inverloch",
     description: [
       "John Flagg Rise is a luxury custom home designed around the coastal environment — panoramic views, natural light, and refined materiality throughout.",
     ],
@@ -257,6 +262,7 @@ export const projects: Project[] = [
     type: "custom-home",
     typeLabel: "Custom Home",
     tagline: "Custom home near Wilsons Promontory.",
+    locationSlug: "walkerville",
     description: [
       "Casuarina Grove is a custom coastal home built near Wilsons Promontory — designed for life on the coast with a high-performance, energy-efficient building envelope.",
     ],

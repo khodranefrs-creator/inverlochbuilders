@@ -54,7 +54,7 @@ export function SelectedProjects() {
                 {fern.description[0]}
               </p>
               <Link
-                href={`/${fern.slug}`}
+                href={`/ourworks/${fern.slug}`}
                 className="line-link mt-6 inline-flex items-center gap-2 font-sans text-[0.72rem] font-semibold uppercase tracking-[0.22em] text-ink"
               >
                 View Project →

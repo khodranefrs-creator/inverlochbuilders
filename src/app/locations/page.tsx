@@ -111,6 +111,7 @@ export default function LocationsPage() {
                         src={l.heroImage.src}
                         alt={l.heroImage.alt}
                         width={1100}
+                        ratio="16/11"
                         className="zoom-media wix-img absolute inset-0 h-full w-full object-cover"
                       />
                     </div>

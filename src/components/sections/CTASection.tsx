@@ -39,7 +39,7 @@ export function CTASection({
         className="pointer-events-none absolute inset-0 opacity-20"
         style={{
           backgroundImage:
-            "url(https://static.wixstatic.com/media/c86e57_ed1b0d1b54b741489df3b22f9d1e3caf~mv2.jpg/v1/fit/w_1600,q_70,enc_avif,quality_auto/bg.jpg)",
+            "url(https://static.wixstatic.com/media/c86e57_ed1b0d1b54b741489df3b22f9d1e3caf~mv2.jpg/v1/fill/w_1600,h_900,al_c,q_70,enc_avif,quality_auto/bg.jpg)",
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
