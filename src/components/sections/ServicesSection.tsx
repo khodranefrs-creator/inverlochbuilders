@@ -10,7 +10,13 @@ export function ServicesSection() {
   const [custom, renov, ext] = services;
 
   return (
-    <section className="bg-ink py-24 text-ivory md:py-36">
+    <section
+      className="bg-ink py-24 text-ivory md:py-36"
+      style={{
+        backgroundImage:
+          "radial-gradient(60rem 26rem at 50% -6rem, rgba(196,162,122,0.10), transparent 65%)",
+      }}
+    >
       <Container>
         <SectionHeader
           tone="dark"

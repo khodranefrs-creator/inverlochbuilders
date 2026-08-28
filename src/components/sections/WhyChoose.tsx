@@ -50,7 +50,7 @@ export function WhyChoose() {
             <div className="border-t border-line">
               {principles.map((p, i) => (
                 <Reveal key={p.number} delay={i * 60}>
-                  <article className="group grid grid-cols-12 gap-4 border-b border-line py-10 transition-colors hover:bg-parchment/60 md:py-12">
+                  <article className="group grid grid-cols-12 items-start gap-4 border-b border-line py-12 transition-colors hover:bg-parchment/60 md:py-14">
                     <p className="col-span-2 font-display text-3xl font-light text-clay transition-transform duration-500 group-hover:-translate-y-1 md:col-span-1 md:text-4xl">
                       {p.number}
                     </p>

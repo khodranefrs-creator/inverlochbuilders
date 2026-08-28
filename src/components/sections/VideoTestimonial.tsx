@@ -20,10 +20,9 @@ export function VideoTestimonial() {
 
         <div className="grid gap-10 lg:grid-cols-12 lg:items-end">
           <h2 className="display-lg lg:col-span-8">
-            Real people.
+            Our Woodland Heath
             <br />
-            <span className="italic text-clay">Real homes.</span> Real
-            experiences.
+            <span className="italic text-clay">Handover.</span>
           </h2>
           <p className="lede max-w-sm text-ivory/65 lg:col-span-4">
             {v.quote}
@@ -70,7 +69,7 @@ export function VideoTestimonial() {
                 </p>
               </div>
               <p className="hidden font-sans text-[0.68rem] font-medium uppercase tracking-[0.22em] text-ivory/70 sm:block">
-                {v.duration}
+                {v.duration || "Real client handover"}
               </p>
             </div>
           </div>

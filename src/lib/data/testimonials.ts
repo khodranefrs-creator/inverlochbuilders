@@ -48,19 +48,19 @@ export const testimonials: Testimonial[] = [
 /** Video testimonial card — poster + link to the public real client content. */
 export const videoTestimonial = {
   eyebrow: "Handover",
-  title: "Real people. Real homes. Real experiences.",
+  title: "Our Woodland Heath Handover.",
   quote:
-    "Watching our clients see their finished home for the first time is what handover is all about.",
+    "Handover is where we see the clients glow as their house has become a reality.",
   clientName: "Woodland Heath",
-  clientLocation: "Handover Video",
+  clientLocation: "Bass Coast",
   clientProjectLabel: "Custom Home · Handover",
-  projectType: "Custom Home",
+  projectType: "Handover",
   poster: {
     src: "c86e57_50c7e90887b143a19dec0e8e5b25a365~mv2.jpeg",
     alt: "Custom kitchen crafted by Inverloch Builders",
   },
   /** Native mp4/mov source when available. Falls back to external link. */
   videoFile: "",
-  videoUrl: "https://www.instagram.com/reel/DcalURrn2X-/",
-  duration: "00:14",
+  videoUrl: "https://www.instagram.com/p/DcalURrn2X-/",
+  duration: "",
 };

@@ -215,7 +215,7 @@ export default function OurWorkPage() {
         <Container>
           <div className="grid gap-10 lg:grid-cols-12 lg:gap-0">
             <Reveal className="lg:col-span-4 lg:col-start-2 lg:mt-20">
-              <p className="eyebrow-label">03 — Custom Home</p>
+              <p className="eyebrow-label">03 — Renovation</p>
               <h3 className="display-lg mt-4 text-ink">{sandymount.name}</h3>
               <Meta project={sandymount} />
               <p className="body-copy mt-6">{sandymount.description[0]}</p>

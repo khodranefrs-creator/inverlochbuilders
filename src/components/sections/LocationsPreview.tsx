@@ -9,7 +9,7 @@ export function LocationsPreview() {
   const [spotlight, ...rest] = locations;
 
   return (
-    <section className="bg-ivory pb-24 md:pb-36">
+    <section className="bg-parchment pb-24 md:pb-36">
       <Container>
         <div className="grid gap-12 lg:grid-cols-12">
           <div className="lg:col-span-5">

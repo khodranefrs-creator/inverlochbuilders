@@ -36,8 +36,14 @@ export function TestimonialsSlider() {
               aria-live="polite"
               aria-label="Client testimonials"
             >
-              <blockquote key={i} className="stage-fade">
-                <p className="display-lg text-ink">&ldquo;{t.quote}&rdquo;</p>
+              <blockquote key={i} className="stage-fade relative">
+                <span
+                  aria-hidden="true"
+                  className="pointer-events-none absolute -top-16 left-0 select-none font-display text-[9rem] leading-none text-clay/25"
+                >
+                  &ldquo;
+                </span>
+                <p className="display-lg relative text-ink">&ldquo;{t.quote}&rdquo;</p>
                 <figcaption className="mt-8 flex items-baseline gap-4">
                   <p className="font-display text-xl text-ink">{t.author}</p>
                   <p className="font-sans text-[0.68rem] font-medium uppercase tracking-[0.22em] text-stone">
@@ -78,7 +84,7 @@ export function TestimonialsSlider() {
           {/* Imagery */}
           <div className="lg:col-span-5">
             <div className="sticky top-32">
-              <div key={`timg-${i}`} className="stage-fade relative aspect-[4/5] overflow-hidden">
+              <div key={`timg-${i}`} className="stage-fade relative aspect-[4/5] overflow-hidden border border-line">
                 {t.image ? (
                   <WixImage
                     src={t.image.src}
