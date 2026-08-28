@@ -36,14 +36,6 @@ const values = [
     title: "Healthy Homes",
     copy: "We prioritise wellbeing — on site and in every home we build. Natural light, clean air, and healthier living environments.",
   },
-  {
-    title: "Responsibility",
-    copy: "We take ownership — of the process, the outcome, and any challenges along the way. We show up, solve problems, and never cut corners.",
-  },
-  {
-    title: "Integrity",
-    copy: "We do what we say we will. We're honest, transparent, and dependable — even when no one's watching. That's how trust is built.",
-  },
 ];
 
 export default function AboutPage() {

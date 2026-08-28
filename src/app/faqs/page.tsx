@@ -16,40 +16,56 @@ export const metadata: Metadata = buildMetadata({
 
 const faqs = [
   {
-    q: "Where does Inverloch Builders build?",
-    a: "Based in Inverloch, we build across the Bass Coast and South Gippsland — including Inverloch, Venus Bay, Woolamai, Phillip Island, San Remo, Leongatha, Korumburra, Walkerville and Foster.",
+    q: "What information do you need to provide an accurate proposal?",
+    a: "Concept drawings — or even rough sketches and ideas — your site address, and an honest indication of your budget. From there we assess scope, structure and intent, and prepare a detailed proposal covering the full scope of works before any fixed-price contract is signed.",
   },
   {
-    q: "What is Early Builder Involvement?",
-    a: "Our EBI model brings everyone — builder, designer, engineer and client — together from the very start. By involving the builder during design, every decision is tested against budget and buildability. It saves time, reduces stress, and ensures your ideas are practical, affordable and achievable before drawings are complete.",
+    q: "How do we set a realistic budget?",
+    a: "Early. Once your concept drawings are ready we prepare a Quality Build Estimate (QBE), then refine it into an open-book, trade-by-trade cost plan as the design progresses. By involving the builder during design, you'll know what your home will cost long before your plans are completed.",
   },
   {
-    q: "When will I know what my home will cost?",
-    a: "Early. Once your concept drawings are ready we prepare a Quality Build Estimate (QBE), refining it into an open-book, trade-by-trade cost plan as the design progresses. You receive a detailed Proposal covering the full scope of works before any fixed-price contract is signed — no surprises.",
+    q: "What is the process for designing and building with Inverloch Builders?",
+    a: "Five clear stages. Discover — we listen first, understanding your site, lifestyle and budget. Design — we turn ideas into practical, buildable plans with your designer or one of our trusted design partners. Plan — cost planning, QBE and permits handled early. Build — an experienced on-site team with live schedule access and quality checks at every stage. Deliver — full handover documentation, warranty, and 3- and 12-month check-ins.",
   },
   {
-    q: "How long does a build or renovation take?",
-    a: "Through Early Builder Involvement we lock in a realistic schedule before site start, engaging suppliers and trades early with real quotes. Regular photo updates and live schedule access mean you always know what's happening and when.",
+    q: "When is the right time to bring a builder on board?",
+    a: "As early as possible — ideally while your design is still being drawn. That's the idea behind Early Builder Involvement: construction methodology, structural requirements, site conditions and real-world costs are all considered while changes are still simple and inexpensive.",
   },
   {
-    q: "Can you work with my own architect or designer?",
-    a: "Yes. We collaborate with your chosen designer or one of our trusted architectural partners. Our team brings real construction knowledge into the design phase, helping refine structure, materials and energy efficiency.",
+    q: "How do you manage variations during construction?",
+    a: "Transparently. Any change to scope is priced openly and discussed with you before we proceed, with the cost and timeline impact made clear. Our open-book approach means you're never surprised by a variation you haven't approved.",
   },
   {
-    q: "Do you handle permits and approvals?",
-    a: "Yes. We coordinate with engineers, consultants, surveyors and council to manage all permits and approvals — ensuring everything is compliant, accurate and ready for construction on time.",
+    q: "Do you build sustainable or high-performance homes?",
+    a: "Yes. Our recent homes draw on passive-house principles — strong orientation for northern light, tightly built envelopes, thermally broken double glazing, and solar hot water and electricity — delivering comfort and year-round energy efficiency suited to the coast.",
+  },
+  {
+    q: "Why involve the builder early in the design process?",
+    a: "It removes the disconnect between plans and reality. Design decisions are tested against buildability and budget while the design is still flexible, so you avoid costly redesigns, exaggerated quotes and wasted time. It saves money and stress, and delivers homes that are practical, affordable and achievable before drawings are complete.",
+  },
+  {
+    q: "What makes Inverloch Builders different?",
+    a: "We're a builder-led, design-aware team rather than a volume operation: an in-house carpentry team, over 30 years of experience across custom homes and major renovations, Early Builder Involvement, and a deliberately limited number of projects each year so every build receives genuine focus.",
+  },
+  {
+    q: "Do you work with architects or only your own designers?",
+    a: "Both. We collaborate with your chosen architect or designer, or with our trusted design partners — such as DB Design, AD Building Design and Beaumont Concepts on recent projects — bringing real construction knowledge into the design phase.",
+  },
+  {
+    q: "Where do you build?",
+    a: "Based in Inverloch, we build across the Bass Coast and South Gippsland — including Inverloch, Walkerville, Cape Woolamai, Venus Bay, San Remo, Phillip Island, Leongatha, Korumburra and Foster.",
+  },
+  {
+    q: "How long will my project take?",
+    a: "It depends on scope and site, but through Early Builder Involvement we lock in a realistic schedule before site start, engaging suppliers and trades early with real commitments. You'll know expected timeframes upfront, with regular photo updates and live schedule access while we build.",
+  },
+  {
+    q: "Do you include landscaping and exterior works?",
+    a: "Yes — project scopes commonly include outdoor living areas such as alfrescos, decking and swim spa surrounds, and we coordinate site and landscape works as part of the overall project.",
   },
   {
     q: "What happens after handover?",
-    a: "You receive full handover documentation, warranty information and a USB with your final records. We check in at 3 and 12 months to make sure your home is performing perfectly.",
-  },
-  {
-    q: "Are you a registered builder?",
-    a: "Yes. A builder's registration isn't paperwork — it protects you. Our registered team builds with integrity, verified insurance and a commitment to safety on site.",
-  },
-  {
-    q: "How do I get started?",
-    a: "Book a discovery call — a relaxed conversation about your site, your ideas and your budget. From there we map out scope, timing and the clearest path to your new home.",
+    a: "We walk through the completed home with you and provide full handover documentation, warranty information and your final records. Built to last means we're still looking after it — we check in at 3 and 12 months to make sure your home is performing perfectly.",
   },
 ];
 

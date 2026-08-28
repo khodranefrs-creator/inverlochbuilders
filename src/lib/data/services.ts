@@ -69,8 +69,8 @@ export const services: Service[] = [
         alt: "Renovated coastal home interior",
       },
       {
-        src: "c86e57_66dd7973faea4877bfde760e4bf2e215~mv2.jpg",
-        alt: "Custom bathroom renovation in Bass Coast home",
+        src: "c86e57_8d7a8bd554e44c9a8f05067ef4344391~mv2.jpg",
+        alt: "Renovated bathroom and interior detail in a Bass Coast home",
       },
     ],
   },
@@ -96,12 +96,12 @@ export const services: Service[] = [
         alt: "Aerial view of an extension project",
       },
       {
-        src: "c86e57_0d97c89658774ee0b0b9893352bf2d19~mv2.jpg",
-        alt: "Open-plan living extension interior",
+        src: "c86e57_e66f88a68b47465f8c81441fedeedf62~mv2.jpg",
+        alt: "Extension and transformed living spaces in Inverloch",
       },
       {
-        src: "c86e57_4474d18c8fcf46038049f04c5dd65f41~mv2.jpg",
-        alt: "Extension connecting indoors to the outdoors",
+        src: "c86e57_fe86bc7c7a244839af01fadb54164de8~mv2.jpg",
+        alt: "Extended home connecting indoors to the outdoors",
       },
     ],
   },

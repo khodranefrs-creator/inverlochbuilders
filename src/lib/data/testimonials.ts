@@ -43,6 +43,20 @@ export const testimonials: Testimonial[] = [
       alt: "John Flagg Rise custom home",
     },
   },
+  {
+    quote:
+      "We consider ourselves fortunate that Andy Kempster was recommended to us for our recent renovations. They listen, communicate effectively and are careful and considerate of your space resulting in a quality service better than none. We would definitely recommend them to anyone seeking a builder.",
+    author: "Jeanette Slaney",
+    location: "Inverloch",
+    projectType: "Renovations",
+  },
+  {
+    quote:
+      "Professionalism, Quality, Responsiveness, Value Andrew Kempster & his team have transformed our Federation Inverloch house, giving it a loving overhaul from top to bottom, and bringing it back to life :) Every member of the Inverloch Builders team have been a pleasure to work with from beginning to end of the 6 month process. We are so pleased with the outcome, from beautiful polished floor boards, to a state of the art bathroom & country kitchen in keeping with the era. We will enjoy it for many years to come. We would not hesitate to recommend them. Thank you Inverloch Builders!",
+    author: "Louisa Donavan",
+    location: "Inverloch",
+    projectType: "Renovation",
+  },
 ];
 
 /** Video testimonial card — poster + link to the public real client content. */

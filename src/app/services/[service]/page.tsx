@@ -10,9 +10,15 @@ import { ArrowLink } from "@/components/ui/ButtonLink";
 import { CTASection } from "@/components/sections/CTASection";
 import { buildMetadata, breadcrumbJsonLd } from "@/lib/seo";
 import { services, getService } from "@/lib/data/services";
-import { projects } from "@/lib/data/projects";
+import { getProject } from "@/lib/data/projects";
 
 type Props = { params: Promise<{ service: string }> };
+
+const relatedByService: Record<string, string[]> = {
+  "custom-builds": ["fern", "johnflagg", "casuarina"],
+  "home-renovations": ["cuttriss", "sandymount2"],
+  extensions: ["cuttriss", "sandymount2"],
+};
 
 export function generateStaticParams() {
   return services.map((s) => ({ service: s.slug }));
@@ -34,7 +40,9 @@ export default async function ServiceDetailPage({ params }: Props) {
   const s = getService(service);
   if (!s) notFound();
 
-  const related = projects.slice(0, 3);
+  const related = relatedByService[s.slug]
+    .map(getProject)
+    .filter((p): p is NonNullable<typeof p> => Boolean(p));
 
   return (
     <>
@@ -108,7 +116,7 @@ export default async function ServiceDetailPage({ params }: Props) {
               <>
                 Projects across
                 <br />
-                <span className="italic text-clay">this discipline.</span>
+                <span className="italic text-clay">the region.</span>
               </>
             }
           />
@@ -131,7 +139,7 @@ export default async function ServiceDetailPage({ params }: Props) {
                     {p.name}
                   </p>
                   <p className="mt-1 text-sm text-ash">
-                    {p.location} · {p.year}
+                    {p.location} · {p.typeLabel}
                   </p>
                 </Link>
               </Reveal>

@@ -93,7 +93,17 @@ export function TestimonialsSlider() {
                     className="wix-img h-full w-full object-cover"
                   />
                 ) : (
-                  <div className="h-full w-full bg-parchment" />
+                  <div className="flex h-full w-full flex-col items-center justify-center bg-parchment text-center">
+                    <span className="font-display text-7xl font-light text-clay">
+                      {t.author
+                        .split(" ")
+                        .map((w) => w[0])
+                        .join("")}
+                    </span>
+                    <span className="mt-4 font-sans text-[0.65rem] font-semibold uppercase tracking-[0.24em] text-stone">
+                      {t.author}
+                    </span>
+                  </div>
                 )}
                 <div className="absolute bottom-0 left-0 bg-ivory/90 px-5 py-3 backdrop-blur-sm">
                   <p className="font-sans text-[0.62rem] font-semibold uppercase tracking-[0.24em] text-ink">

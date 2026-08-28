@@ -175,8 +175,8 @@ export const projects: Project[] = [
         alt: "Cutriss — renovated interior",
       },
       {
-        src: "c86e57_66dd7973faea4877bfde760e4bf2e215~mv2.jpg",
-        alt: "Cutriss — bathroom renovation detail",
+        src: "c86e57_e40671d976124d2faa22a2badb0eb9cd~mv2.jpg",
+        alt: "Cutriss — extension and living space detail",
       },
     ],
   },
@@ -205,15 +205,15 @@ export const projects: Project[] = [
     gallery: [
       {
         src: "c86e57_4bd4e0cc916149c4a95b5c81f91990d0~mv2.jpeg",
-        alt: "Sandy Mount custom home",
+        alt: "Sandy Mount — renovated coastal home exterior",
       },
       {
-        src: "c86e57_36e47d70d5074e01a96ce1cdf1c421e7~mv2.jpg",
-        alt: "Energy efficient window and cladding system installation",
+        src: "c86e57_486fe8c53163452f957830f1ef13bfdc~mv2.jpeg",
+        alt: "Sandy Mount — renewed open-plan interior",
       },
       {
-        src: "c86e57_bd465f9e3e7c48c582ea29f682a86cb2~mv2.jpg",
-        alt: "Thermally broken double glazing installed in custom home",
+        src: "c86e57_76a0b11ed6144b67b2c1a09c82067be7~mv2.jpg",
+        alt: "Sandy Mount — bright, refurbished living detail",
       },
     ],
   },
